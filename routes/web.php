@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return ;
+Route::get('/', function () {
+    return 'homepage';
 });
 Route::get('/students', [StudentController::class, 'proc']);
 Route::get('/kh', [StudentController::class, 'proc']);

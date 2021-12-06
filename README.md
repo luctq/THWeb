@@ -63,8 +63,8 @@ MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 - Save this file
 ## Install composer to Project
 - Open terminal:
-```
-php artisan key:generate    
+```   
 composer update
+php artisan key:generate 
 
 ```
