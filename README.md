@@ -66,5 +66,6 @@ MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 ```   
 composer update
 php artisan key:generate 
+php artisan serve
 
 ```
